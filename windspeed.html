@@ -9,4 +9,37 @@
         <link rel = "stylesheet" href = "CSS/styles.css" media = "screen">
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    </head>        
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-default">
+            <div class = "row">
+                <div class = "navbar-header">
+                    <button type = "button" class = "navbar-toggle" data-toggle = "collapse">
+                        <span class = "sr-only">Toggle Nav</span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                    </button>
+                    <div class = "col-xs-8 phone-nav">
+                        <a class = "navbar-brand" href = "#" id = "logo">Latitude</a>
+                    </div>
+
+                    <div class = "collapse navbar-collapse">
+                        <ul class = "nav navbar-nav navbar-right navbar-right-custom">
+                            <li class = "dropdown">
+                                <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown" role = "button">Plots</a>
+                                <ul class = "dropdown-menu">
+                                    <li><a href = "visualizations/maxtemp.html">Max Temperature</a></li>
+                                    <li><a href = "visualizations/humidity.html">Humidity</a></li>
+                                    <li><a href = "visualizations/cloudiness.html">Cloudiness</a></li>
+                                    <li><a href = "visualizations/windspeed.html">Wind Speed</a></li>
+                                </ul>
+                            </li>
+                            <li><a href = "comparison.html">Comparison</a></li>
+                            <li><a href = "data.html">Data</a</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
