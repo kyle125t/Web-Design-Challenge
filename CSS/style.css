@@ -1,8 +1,28 @@
 body {
-    background-color: aliceblue; 
+    background-color: aliceblue;
+    margin-bottom: 100px;
+
 }
 
+.comparison-image:hover {
+    opacity: 0.6;
+  }
+  
+.comparison-header {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    }
+
 .description-content {
+    background-color: azure;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.description-content > p {
     background-color: azure;
     margin-top: 30px;
     padding: 30px;
@@ -15,6 +35,10 @@ body {
     margin-bottom: 30px;    
 }
 
+.description-text {
+    padding-bottom: 30px;
+  }
+
 h1 {
     font-size: 40px;
 }
@@ -23,8 +47,13 @@ h2 {
     font-size: 30;
 }
 
+html {
+    position: relative;
+}
+
 .imageNav-area {
     width: 100%;
+    padding: 10px 20px;
 }
 
 .imageNav-header {
@@ -36,16 +65,16 @@ h2 {
     width: 100%;
 }
 
-.logo {
+#logo {
     padding: 10px 20px;
     background: white;
     margin-top: 30px;
     margin-bottom: 40px; 
-    color:aliceblue;
+    color:blue;
     background-color: white; 
 }
 
-.logo:hover {
+#logo:hover {
     opacity: 0.7;
 }
 
